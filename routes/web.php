@@ -16,5 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('contact', function () {
-    return 'Contact Us';
+    return view('contact');
 });
+
+Route::view('about', 'about');
