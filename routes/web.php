@@ -20,3 +20,5 @@ Route::get('contact', function () {
 });
 
 Route::view('about', 'about');
+
+Route::get('customers',  'CustomersController@list');
